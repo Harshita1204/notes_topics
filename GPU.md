@@ -89,5 +89,3 @@ doing small tasks at the same time.
 
 If one large task is divided into many small parts,
 GPU completes it faster.
-
-
