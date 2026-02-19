@@ -18,9 +18,9 @@ JSON stores data in key-value pairs.
 Example:
 
 {
-  "name": "Rupinder",
-  "age": 25,
-  "city": "Delhi"
+  "name": "harshita",
+  "age": 60,
+  "country": "australia"
 }
 
 - Keys are strings.
