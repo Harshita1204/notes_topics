@@ -38,7 +38,6 @@ Step 1: Data is converted into vector embeddings.
 Step 2: Vectors are stored in the database.
 Step 3: When a query comes, it is also converted to a vector.
 Step 4: Database finds the closest matching vectors.
-
 This is called nearest neighbor search.
 
 
