@@ -1,0 +1,52 @@
+# Array Operations – Time and Space Complexity
+
+## Overview
+
+Arrays store elements in contiguous memory locations.
+Because of this, accessing elements is fast,
+but insertion and deletion can be costly.
+
+--------------------------------------------------
+
+## Complexity Table
+
+| Operation                         | Time Complexity (Worst Case) | Space Complexity | Explanation |
+|----------------------------------|-------------------------------|------------------|------------|
+| Access by Index (arr[i])        | O(1)                          | O(1)             | Direct address calculation using index. |
+| Update by Index                  | O(1)                          | O(1)             | Direct replacement at given index. |
+| Traversal                        | O(n)                          | O(1)             | Visit each element once. |
+| Linear Search                    | O(n)                          | O(1)             | May need to check all elements. |
+| Binary Search (sorted array)     | O(log n)                      | O(1)             | Array divided in half each step. |
+| Insertion at Beginning           | O(n)                          | O(1)             | All elements must shift right. |
+| Insertion at Middle              | O(n)                          | O(1)             | Elements after position must shift. |
+| Insertion at End                 | O(1)                          | O(1)             | Direct insert if space available. |
+| Deletion at Beginning            | O(n)                          | O(1)             | All elements must shift left. |
+| Deletion at Middle               | O(n)                          | O(1)             | Elements after position must shift. |
+| Deletion at End                  | O(1)                          | O(1)             | Just reduce size. |
+| Finding Maximum / Minimum        | O(n)                          | O(1)             | Must traverse entire array. |
+| Sorting (Bubble / Selection)     | O(n²)                         | O(1)             | Nested loops. |
+| Sorting (Merge Sort)             | O(n log n)                    | O(n)             | Divide and merge using extra space. |
+| Sorting (Quick Sort)             | O(n²) worst, O(n log n) avg   | O(log n)         | Recursive stack space used. |
+
+--------------------------------------------------
+
+## Important Notes
+
+1. Arrays provide constant-time access because:
+   Address = Base Address + (index × size of element)
+
+2. Insertion and deletion are costly because:
+   Elements must shift to maintain order in contiguous memory.
+
+3. Binary Search works only when the array is sorted.
+
+4. Worst case complexity is usually reported in interviews.
+
+--------------------------------------------------
+
+## Summary
+
+Arrays are:
+- Fast for accessing elements (O(1))
+- Slow for insertion/deletion in middle (O(n))
+- Efficient for searching only when sorted (Binary Search: O(log n))
