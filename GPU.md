@@ -2,7 +2,7 @@ TOPIC: GPU (Graphics Processing Unit)
 
 
 1. Definition
-------------------------------------------------------------
+----------------------------------------------------------
 GPU stands for Graphics Processing Unit.
 
 It is a specialized processor designed to handle 
