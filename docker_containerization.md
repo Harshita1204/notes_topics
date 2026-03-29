@@ -3,7 +3,6 @@
 ## Definition
 
 Containerization packages applications with dependencies into isolated environments called containers.
-
 Docker is the most popular container platform.
 
 ---
@@ -19,7 +18,6 @@ Docker Container
 # Dockerfile
 
 A script defining how to build a container.
-
 Example:
 
 FROM python:3.9
@@ -31,7 +29,6 @@ RUN pip install flask
 # Docker Image
 
 A snapshot containing application code and dependencies.
-
 Images are used to create containers.
 
 ---
