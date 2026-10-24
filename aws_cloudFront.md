@@ -6,13 +6,11 @@ CloudFront is a Content Delivery Network (CDN) provided by AWS.
 It distributes content across global edge servers to reduce latency.
 
 ---
-
 # How It Works
 
 User requests content
 ↓
 Nearest edge server responds
-
 ---
 
 # Benefits
