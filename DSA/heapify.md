@@ -16,12 +16,14 @@ void heapify(int arr[], int n, int i) {
 }
 
 # heap sort main code
+
 void heapSort(int arr[], int n) {
     // Build Max Heap
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);
 
-    // Extract maximum repeatedly
+    // Extract maximum repeatedly 
+    
     for (int i = n - 1; i > 0; i--) {
         swap(arr[0], arr[i]);
         heapify(arr, i, 0);
