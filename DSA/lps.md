@@ -15,7 +15,6 @@ The searching function uses the LPS array that we calculated in the previous fun
 2. First understand the function
 void KMPSearch(string text, string pattern)
 
-
 It takes two strings:
 - text: The complete string in which we search.
 - pattern: The smaller string we want to find.
